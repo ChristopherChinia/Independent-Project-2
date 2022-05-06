@@ -1,0 +1,62 @@
+nav{
+    background-image: url("../images/moving\ 1.png");
+    padding: 0;
+    justify-content: space-between;
+    background-position: center center center;
+    background-attachment:fixed;
+    background-size: contain;
+    min-height:490px;
+    opacity: 1.1;
+
+}
+
+
+nav.links>ul>li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 30px;
+    font-size:auto ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav.links>ul>li.Home{
+    margin-left: 30%;
+    color: white;
+    margin-right: 2%;
+}
+
+nav.links>ul>li.start{
+    color: white;
+    margin-right: 2%;
+}
+
+nav.links>ul>li#logo{
+color: black;
+padding: 3px;
+border: 10px yellow;
+background-color: yellow;
+border-radius: 0px;
+}
+
+nav.links>ul>li.logoTwo{
+color: yellow;
+border: 1px black;
+background-color: black;
+padding: 3px;
+margin-left: 3%;
+}
+
+nav.links>div.comments>p{
+    color: yellow;
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+nav.links>div#text>p{
+    color: thistle;
+    font-size: 20px;
+    margin-left: 60px;
+}
