@@ -2,5 +2,6 @@
 
 /* Navigation */
 nav.page-for-page{
-    background-color: black;
+    background-color: rgb(46, 30, 1);
+    min-height: 200px;
 }
