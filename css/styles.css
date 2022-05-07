@@ -3,10 +3,11 @@ nav{
     padding: 0;
     justify-content: space-between;
     background-position: center center center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-size: contain;
     min-height:490px;
     opacity: 1.1;
+    background-repeat: no-repeat;
 
 }
 
@@ -59,4 +60,23 @@ nav.links>div#text>p{
     color: thistle;
     font-size: 20px;
     margin-left: 60px;
+}
+
+section.body{
+    justify-content: space-between;
+    
+}
+
+section.body>img{
+    height: 300px;
+    margin-top: 30px;
+    max-width: 100%;
+
+}
+
+section.body>div.sect1{
+    float: right;
+    margin-top:70px;
+    margin-right: 35%;
+    
 }
