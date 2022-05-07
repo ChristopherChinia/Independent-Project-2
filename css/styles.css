@@ -117,3 +117,35 @@ section.body>div.sect1>button#sect3{
     border-radius: 0px 15px 0px 0px;
     
 }
+
+section.final{
+    background-color: whitesmoke;
+    margin-top: 30px;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+section.final>div.finSect>#line{
+    margin-right: 80%;
+    height:2px; 
+    width: 100px;
+    border: 0 ;
+    background-color: maroon;
+    margin-top:;
+    
+}
+
+section.final>div.finSect>.point{
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 0px 0px 0px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+section.final>div.image>.one,.two,.three,.four,.five,.six{
+    display: inline-block;
+    align-items: center;
+    max-width: 100%;
+    height: 200px;
+    
+}
