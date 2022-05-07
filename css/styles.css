@@ -3,6 +3,8 @@ body{
     max-height: 100%;
 }
 
+/* Section Navigation */
+
 nav{
     background-image: url("../images/moving\ 1.png");
     padding: 0;
@@ -68,6 +70,8 @@ nav.links>div#text>p{
     margin-left: 60px;
 }
 
+/* Section Body */
+
 section.body{
     justify-content: space-between;
     
@@ -118,11 +122,23 @@ section.body>div.sect1>button#sect3{
     
 }
 
+/* Section final */
+
 section.final{
     background-color: whitesmoke;
     margin-top: 30px;
     background-attachment: fixed;
     min-height: 500px;
+}
+
+section.final>div.finSect>.point{
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 0px 0px 0px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 10%;
 }
 
 section.final>div.finSect>#line{
@@ -131,21 +147,34 @@ section.final>div.finSect>#line{
     width: 100px;
     border: 0 ;
     background-color: maroon;
-    margin-top:;
     
 }
 
-section.final>div.finSect>.point{
-    font-family:'Times New Roman', Times, serif ;
-    text-shadow: 0px 0px 0px;
-    font-style: italic;
-    font-weight: 100;
-}
 
 section.final>div.image>.one,.two,.three,.four,.five,.six{
-    display: inline-block;
+    display: inline;
     align-items: center;
     max-width: 100%;
     height: 200px;
+    justify-content: space-between;
+    margin: 10px;
     
+}
+/* Section bottom */
+
+section.bottom{
+    background-color: black;
+    
+}
+
+section.bottom>div.bottomLine>h3.part1{
+color: white;
+padding:20px;
+margin-left: 90px;
+font-style: italic;
+font-size:30px;
+}
+
+section.bottom>div.bottomLine>h3.part1>span.last{
+    color: yellow;
 }
