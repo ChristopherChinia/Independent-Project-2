@@ -164,11 +164,10 @@ section.final>div.finSect>.point{
 
 
 
-section.final>div.image>div>.one,.two,.three,.four,.five,.six{
-    display: inline;
+section.final>div.image>.one{
+    display: inline-block;
     align-items: center;
-    max-width: 100%;
-    height: 200px;
+    height: 20%;
     justify-content: space-between;
     margin: 5px;
     
@@ -176,7 +175,7 @@ section.final>div.image>div>.one,.two,.three,.four,.five,.six{
 /* Section bottom */
 
 section.bottom{
-    background-color: black;
+    background-color: #050505;
     
 }
 
@@ -189,6 +188,32 @@ font-size:30px;
 }
 
 section.bottom>div.bottomLine>h3.part1>span.last{
-    color: yellow;
+    color: rgb(255, 153, 0);
 }
 
+
+section.bottom>div.bottomLine>hr.line{
+    color: grey;
+}
+
+section.bottom>i{
+    margin: 30px 30px 0px 30px;
+    color: white;
+}
+
+section.bottom>div.column{
+    display: flex;
+    padding: 10px;
+    margin-top:5px;
+    font-size:auto ;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    flex-direction: row;
+}
+
+section.bottom>div.column>.CMone{
+   margin-left: 50%;
+    
+}
