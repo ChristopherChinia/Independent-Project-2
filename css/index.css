@@ -131,7 +131,7 @@ section.front>.side>ul>button>i{
 
 /* Upper Part */
 section.upperPart{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 10px;
     align-items: center;
     display: inline;
@@ -139,4 +139,35 @@ section.upperPart{
 
 section.upperPart>div>img{
     height: 220px;
+}
+
+section.upperPart>.detail{
+    border: 1px solid blue;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px grey;
+}
+
+section.upperPart>.detail>div>i{
+    display: flex;
+    /* flex-direction: row; */
+    margin-right: 50%;
+
+}
+
+
+section.upperPart>div.Des{
+    border: 1px solid red;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px grey;
+}
+
+section.upperPart>div.Des>h4{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+section.upperPart>div.Des>p{
+    color: grey;
+    margin-right: 50%;
+    font-size: 20px;
 }
