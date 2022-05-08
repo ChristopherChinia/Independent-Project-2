@@ -131,7 +131,6 @@ section.front>.side>ul>button>i{
 
 /* Upper Part */
 section.upperPart{
-    /* border: 1px solid red; */
     margin: 10px;
     align-items: center;
     display: inline;
@@ -175,7 +174,6 @@ section.upperPart>div.Des>p{
 }
 
 section.upperPart>div.feature{
-    /* border: 1px solid brown; */
     border-radius: 15px;
     box-shadow: 15px 15px 15px grey;
     padding: 10px;
@@ -196,11 +194,31 @@ section.upperPart>div.feature>.column{
     font-size: 20px;
     color: white;
     flex-direction: row;
-    /* background-color: black; */
+
 }
 
 
 section.upperPart>div.feature>.column>div>p{
     color: black;
     align-items: center;
+}
+
+
+/* Middle Section */
+
+
+section.similar{
+    border: 1px solid red;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px grey;
+}
+
+section.similar>div.slone>h3{
+    font-weight: 200;
+    font-size: 40px;
+}
+
+section.similar>div.pic>img{
+height: 250px;
+width: 450px;
 }
