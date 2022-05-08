@@ -1,7 +1,57 @@
 /* Styles for page file */
 
 /* Navigation */
-nav.page-for-page{
+nav.page{
     background-color: rgb(46, 30, 1);
-    min-height: 200px;
+    justify-content: space-between;
+    min-height: 230px;
+    
+}
+
+nav.page>ul>li{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: medium;
+    color: white;
+    margin-right: 5px;
+}
+
+nav.page>ul>li.topOne{
+margin-left: 35%;
+
+}
+
+
+nav.page>ul>li.connect>button{
+    margin-right: 15%;
+    border: 1px yellow;
+    color: black;
+    background-color: rgb(255, 166, 0);
+    padding: 5px 50px 10px 50px;
+    border-radius: 0px 15px 0px 0px;
+}
+nav.page>div.topic{
+    /* padding: 5%; */
+    color: grey;
+    width: 100%;
+    margin-right:50%;
+    
+    
+}
+
+nav.page>div.topic>h2#dollars{
+    color: white;
+    float: right;
+    
+}
+
+nav.page>div.topic>h2.modern,p{
+ color: white;
+ 
+}
+
+nav.page>div.topic>p{
+ margin-bottom: 20%; 
+ color: grey;  
 }
