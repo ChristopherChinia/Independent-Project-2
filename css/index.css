@@ -149,14 +149,12 @@ section.upperPart>.detail{
 
 section.upperPart>.detail>div>i{
     display: flex;
-    /* flex-direction: row; */
     margin-right: 50%;
 
 }
 
 
 section.upperPart>div.Des{
-    /* border: 1px solid red; */
     border-radius: 15px;
     box-shadow: 15px 15px 15px grey;
 }
@@ -264,5 +262,4 @@ footer.back>div.row{
     font-size: 20px;
     color: white;
     flex-direction: row;
-}
 }

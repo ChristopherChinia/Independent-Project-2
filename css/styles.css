@@ -137,7 +137,7 @@ section.body>div.sect1>button#sect3{
 section.final{
     background-color: whitesmoke;
     margin-top: 30px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     min-height: 500px;
     background-position: 15%;
 }
@@ -163,13 +163,21 @@ section.final>div.finSect>.point{
 }
 
 
-
-section.final>div.image>.one{
-    display: inline-block;
+section.final>div.image{
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    margin: 10px;
     align-items: center;
-    height: 20%;
-    justify-content: space-between;
-    margin: 5px;
+    display: inline-block;
+}
+
+section.final>div.image>img{
+   height: 300px;
+   width: 400px;
+   margin: 30px;
+   border: 1px solid red;
+   border-radius: 15px;
+   padding-bottom: 100px;
     
 }
 /* Section bottom */
