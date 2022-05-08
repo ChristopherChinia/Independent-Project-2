@@ -14,36 +14,41 @@ nav.page>ul>li{
     padding: 10px;
     font-size: medium;
     color: white;
-    margin-right: 5px;
+    margin-right: 50px;
 }
 
 nav.page>ul>li.topOne{
-margin-left: 35%;
+margin-left: 55%;
 
 }
 
 
 nav.page>ul>li.connect>button{
-    margin-right: 15%;
-    border: 1px yellow;
+    border: 3px yellow;
     color: black;
     background-color: rgb(255, 166, 0);
-    padding: 5px 50px 10px 50px;
+    padding: 5px 20px 10px 20px;
     border-radius: 0px 15px 0px 0px;
 }
 nav.page>div.topic{
-    /* padding: 5%; */
     color: grey;
     width: 100%;
-    margin-right:50%;
-    
-    
+    margin-left:15px;
+    display: flex;
+    flex-direction:row;
 }
 
 nav.page>div.topic>h2#dollars{
     color: white;
-    float: right;
+    margin-left: 80%;
+    font-style: italic;
+    font-weight: 200;
     
+}
+
+nav.page>div.topic>h2#dollars>span{
+    font-size: small;
+    margin-left: 30px;
 }
 
 nav.page>div.topic>h2.modern,p{
