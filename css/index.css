@@ -63,14 +63,70 @@ nav.page>div.topic>p{
 
 /* Front section */ 
 
-section.front>div.two>img{
-    max-width: 100%;
-    height: 400px;
+section.front{
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+margin-right: ;
+/* border: 2px solid red; */
+background-color: grey;
 }
 
-section.front>.side{
-    float: right;
-    flex-direction: column;
-    align-items: center;
-    display:flex;
+section.front>div.two>img{
+    max-width: 100%;
+    height: 100;
+
 }
+
+section.front>.side>ul{
+    display:inline-flex;
+    flex-direction: column;
+    margin-left: 60px;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+    color: black;
+    margin-top: 70px;
+    background-color: white;
+    list-style: none;
+    border-radius: 20px;
+}
+
+section.front>.side>ul>li{
+    margin-right: 20px;
+
+}
+
+
+section.front>.side>ul>li.name{
+    box-shadow: 2px 2px 2px gray;
+    margin-top: 20px;
+} 
+
+
+section.front>.side>ul>li.phone{
+    box-shadow: 2px 2px 2px gray;
+    padding: 15px;
+}
+section.front>.side>ul>li.email{
+    box-shadow: 2px 2px 2px gray;
+}
+
+section.front>.side>ul>li.hello{
+    box-shadow: 2px 2px 2px gray;
+}
+
+section.front>.side>ul>button{
+    box-shadow: 2px 2px 2px gray;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+section.front>.side>ul>button>i{
+    color: rgb(255, 166, 0);
+}
+
+/* Upper Part */
