@@ -9,16 +9,12 @@ nav{
     background-image: url("../images/moving\ 1.png");
     padding: 0;
     justify-content: space-between;
-    /* background-position: center center center; */
-    /* background-attachment: ; */
     background-size: cover;
-    /* min-height:490px; */
     opacity: 1.1;
     background-repeat: no-repeat;
-    /* min-width: 100%; */
-width: 100%;
-border: 2px solid red;
-height: 700px;
+    width: 100%;
+    height: 700px;
+
 }
 
 
@@ -29,11 +25,12 @@ nav.links>ul>li{
     font-size:auto ;
     justify-content: space-between;
     align-items: center;
+    font-size: 30px;
 }
 
 
 nav.links>ul>li.Home{
-    margin-left: 30%;
+    margin-left: 40%;
     color: white;
     margin-right: 2%;
 }
@@ -41,6 +38,11 @@ nav.links>ul>li.Home{
 nav.links>ul>li.start{
     color: white;
     margin-right: 2%;
+}
+
+nav.links>ul>li.startM>a{
+    color: white;
+    text-decoration: none;
 }
 
 nav.links>ul>li#logo{
@@ -70,12 +72,14 @@ nav.links>div#text>p{
     color: thistle;
     font-size: 20px;
     margin-left: 60px;
+    font-size:30px ;
 }
 
 /* Section Body */
 
 section.body{
     justify-content: space-between;
+    max-width: 100%;
     
 }
 
@@ -90,7 +94,7 @@ section.body>div.sect1{
     float: right;
     margin-top:70px;
     margin-right: 25%;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 
@@ -135,6 +139,17 @@ section.final{
     margin-top: 30px;
     background-attachment: fixed;
     min-height: 500px;
+    background-position: 15%;
+}
+
+section.final>div.finSect>#line{
+    margin-right: 80%;
+    height:2px; 
+    width: 100px;
+    border: 0 ;
+    background-color: maroon;
+    padding: 0px 0px 0px 0px;
+    
 }
 
 section.final>div.finSect>.point{
@@ -144,20 +159,12 @@ section.final>div.finSect>.point{
     font-weight: 100;
     font-size: 40px;
     margin-left: 100px;
-    margin-top: 10%;
-}
-
-section.final>div.finSect>#line{
-    margin-right: 80%;
-    height:2px; 
-    width: 100px;
-    border: 0 ;
-    background-color: maroon;
-    
+    margin-top: 5%;
 }
 
 
-section.final>div.image>.one,.two,.three,.four,.five,.six{
+
+section.final>div.image>div>.one,.two,.three,.four,.five,.six{
     display: inline;
     align-items: center;
     max-width: 100%;
