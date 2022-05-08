@@ -136,3 +136,7 @@ section.upperPart{
     align-items: center;
     display: inline;
 }
+
+section.upperPart>div>img{
+    height: 220px;
+}
