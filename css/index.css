@@ -141,11 +141,10 @@ section.upperPart>div>img{
 }
 
 section.upperPart>.detail{
-    /* border: 1px solid blue; */
     border-radius: 15px;
     box-shadow: 15px 15px 15px grey;
-    font-size: 30px;
-    /* margin-right: 50%; */
+    font-size: 40px;
+    font-weight: 200;
 }
 
 section.upperPart>.detail>div>i{
@@ -205,10 +204,7 @@ section.upperPart>div.feature>.column>div>p{
 
 
 /* Middle Section */
-
-
 section.similar{
-    border: 1px solid red;
     border-radius: 15px;
     box-shadow: 15px 15px 15px grey;
 }
@@ -221,4 +217,52 @@ section.similar>div.slone>h3{
 section.similar>div.pic>img{
 height: 250px;
 width: 450px;
+}
+
+/* back Section */
+footer.back{
+    border-radius: 15px;
+    background-color: rgb(46, 30, 1);
+    box-shadow: 5px 5px 5px grey;
+}
+
+footer.back>div.reality{
+    display: flex;
+    flex-direction: row;
+}
+
+footer.back>div.reality>h3{
+color: white;
+font-weight: 200;
+font-size: 30px;
+
+}
+
+footer.back>div.reality>h3>span{
+color: rgb(255, 145, 0);
+margin-left: 40px;
+}
+footer.back>div.reality>button{
+    margin-left: 60%;
+    background-color: rgb(255, 174, 0);
+    border-radius: 0px 15px 0px 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+footer.back>i{
+    margin: 30px 30px 0px 30px;
+    color: white;
+}
+
+footer.back>div.row{
+    display: flex;
+    padding: 10px;
+    margin-top:5px;
+    font-size:auto ;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    flex-direction: row;
+}
 }
