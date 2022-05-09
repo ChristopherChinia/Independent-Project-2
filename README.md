@@ -35,7 +35,7 @@ As a user of this site,you will be able to:
 
  ### Installation Process
  ****
- *Clone to thir repo :
+ *Clone to thir repo : https://github.com/ChristopherChinia/Independent-Project-2
  * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
