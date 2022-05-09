@@ -15,16 +15,16 @@
 
  ## Description
 
-This is a project website for Moringa school that shows details about it's school,services it offers, Tecnical Mentors and achievements. it also has links that enables a user to access and learn more about a the prefered site.
+This is a project website for Top movers that aims at advertising to the users about the products and services provided to the clients. It also gives description about services provided by other movers. 
 
 [Go Back to the top](#Moringa-School)
 
 
 ## Features
 As a user of this site,you will be able to:
-1.See a description of what the services offered by the school.
+1.Learn more about various services provided.
 2.Access various links to your preference.
-3.Learn more about our Technical mentors by Asking Questions
+3.Access other websites through the movers link.
 
 [Go Back to the top](#Moringa School)
 
@@ -65,5 +65,5 @@ copies or substantial portions of the Software.
 
 ## Authors Info
 Email - [Christopher Chinia]
-(chinia214@gmail.com)
+(christopher.chinia@student.moringaschool.com)
 [Go Back to the Top](#moringa-school)
